@@ -1,0 +1,46 @@
+/* label color */
+.input-field label {
+  color: yellow;
+}
+/* label focus color */
+.input-field input[type="tel"]:focus + label {
+  color: #000;
+}
+/* label underline focus color */
+.input-field input[type="tel"]:focus {
+  border-bottom: 1px solid yellow;
+  box-shadow: 0 1px 0 0 yellow;
+}
+.image {
+    border-radius: 25px;
+}
+.nav {
+    height: 100px;
+    background-color: white;
+}
+.nav-wrapper {
+    padding: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+}
+.brand-logo {
+    font-weight: bold;
+}
+.material-icons {
+    padding-right: 20px;
+    font-size: 20px;
+}
+.col {
+    border-radius: 20px;
+}
+.link {
+    color: #ffab00;
+    text-decoration: underline;
+}
+.button {
+    padding-bottom: 50px;
+}
+.card-content {
+    margin-left: 50px;
+    margin-right: 50px;
+}
